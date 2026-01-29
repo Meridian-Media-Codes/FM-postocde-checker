@@ -26,7 +26,7 @@ class PRC_Settings {
 			'success_cta_text'  => 'Book now',
 			'success_cta_url'   => '/book',
 			'fail_cta_text'     => 'But we can still come',
-			'fail_cta_url'      => '/services',
+			'fail_cta_url'      => '/contact-us',
 
 			'success_bg'        => '#e6ffed',
 			'success_tx'        => '#0a5d2a',
@@ -157,7 +157,7 @@ class PRC_Settings {
 					</tr>
 					<tr>
 						<th scope="row"><label for="success_cta_url">Success CTA URL</label></th>
-						<td><input name="<?php echo esc_attr(self::$option_key); ?>[success_cta_url]" type="url" id="success_cta_url" value="<?php echo esc_attr($opts['success_cta_url']); ?>" class="regular-text code" /></td>
+						<td><input name="<?php echo esc_attr(self::$option_key); ?>[success_cta_url]" type="text" id="success_cta_url" value="<?php echo esc_attr($opts['success_cta_url']); ?>" class="regular-text code" /></td>
 					</tr>
 
 					<tr>
@@ -170,7 +170,7 @@ class PRC_Settings {
 					</tr>
 					<tr>
 						<th scope="row"><label for="fail_cta_url">Fail CTA URL</label></th>
-						<td><input name="<?php echo esc_attr(self::$option_key); ?>[fail_cta_url]" type="url" id="fail_cta_url" value="<?php echo esc_attr($opts['fail_cta_url']); ?>" class="regular-text code" /></td>
+						<td><input name="<?php echo esc_attr(self::$option_key); ?>[fail_cta_url]" type="text" id="fail_cta_url" value="<?php echo esc_attr($opts['fail_cta_url']); ?>" class="regular-text code" /></td>
 					</tr>
 
 					<tr>
