@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Postcode Radius Checker
  * Description: Simple postcode radius checker with admin-set base address and radius. Shortcode: [postcode_checker]
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Meridian Media
  * License: GPLv2 or later
  * Text Domain: prc
