@@ -26,7 +26,7 @@ class PRC_Settings {
 			'success_cta_text'  => 'Book now',
 			'success_cta_url'   => '/book',
 			'fail_cta_text'     => 'But we can still come',
-			'fail_cta_url'      => '/contact',
+			'fail_cta_url'      => '/services',
 
 			'success_bg'        => '#e6ffed',
 			'success_tx'        => '#0a5d2a',
